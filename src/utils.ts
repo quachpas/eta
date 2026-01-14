@@ -1,4 +1,4 @@
-import type { EtaConfig } from "./config.ts";
+import type { EtaConfig } from "./config";
 
 /**
  * Takes a string within a template and trims it, based on the preceding tag's whitespace control and `config.autoTrim`

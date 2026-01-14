@@ -1,12 +1,12 @@
-import { EtaError } from "./err.ts";
+import { EtaError } from "./err";
 
 import * as path from "node:path";
 
 import * as fs from "node:fs";
 
 /* TYPES */
-import type { Eta as EtaCore } from "./core.ts";
-import type { Options } from "./config.ts";
+import type { Eta as EtaCore } from "./core";
+import type { Options } from "./config";
 /* END TYPES */
 
 export function readFile(this: EtaCore, path: string): string {

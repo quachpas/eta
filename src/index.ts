@@ -1,5 +1,5 @@
-import { Eta as EtaCore } from "./core.ts";
-import { readFile, resolvePath } from "./file-handling.ts";
+import { Eta as EtaCore } from "./core";
+import { readFile, resolvePath } from "./file-handling";
 
 export class Eta extends EtaCore {
   readFile = readFile;
@@ -7,7 +7,7 @@ export class Eta extends EtaCore {
   resolvePath = resolvePath;
 }
 
-export { EtaError } from "./err.ts";
-export { Eta as EtaCore } from "./core.ts";
-export type { Options, trimConfig } from "./config.ts";
-export type { TemplateFunction } from "./compile.ts"
+export { EtaError } from "./err";
+export { Eta as EtaCore } from "./core";
+export type { Options, trimConfig } from "./config";
+export type { TemplateFunction } from "./compile"

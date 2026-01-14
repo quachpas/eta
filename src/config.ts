@@ -1,4 +1,4 @@
-import { XMLEscape } from "./utils.ts";
+import { XMLEscape } from "./utils";
 
 /* TYPES */
 

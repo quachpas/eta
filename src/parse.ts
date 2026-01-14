@@ -1,9 +1,9 @@
-import { ParseErr } from "./err.ts";
-import { trimWS } from "./utils.ts";
+import { ParseErr } from "./err";
+import { trimWS } from "./utils";
 
 /* TYPES */
 
-import type { Eta } from "./core.ts";
+import type { Eta } from "./core";
 
 export type TagType = "r" | "e" | "i" | "";
 

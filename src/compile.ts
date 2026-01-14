@@ -1,8 +1,8 @@
-import { EtaError } from "./err.ts";
+import { EtaError } from "./err";
 
 /* TYPES */
-import type { Eta } from "./core.ts";
-import type { EtaConfig, Options } from "./config.ts";
+import type { Eta } from "./core";
+import type { EtaConfig, Options } from "./config";
 
 export type TemplateFunction = {
   (this: Eta, data?: object, options?: Partial<Options>): string;

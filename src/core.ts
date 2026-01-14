@@ -1,14 +1,14 @@
-import { Cacher } from "./storage.ts";
-import { compile } from "./compile.ts";
-import { compileToString, compileBody } from "./compile-string.ts";
-import { defaultConfig } from "./config.ts";
-import { parse } from "./parse.ts";
-import { render, renderAsync, renderString, renderStringAsync } from "./render.ts";
-import { RuntimeErr, EtaError } from "./err.ts";
-import { TemplateFunction } from "./compile.ts";
+import { Cacher } from "./storage";
+import { compile } from "./compile";
+import { compileToString, compileBody } from "./compile-string";
+import { defaultConfig } from "./config";
+import { parse } from "./parse";
+import { render, renderAsync, renderString, renderStringAsync } from "./render";
+import { RuntimeErr, EtaError } from "./err";
+import { TemplateFunction } from "./compile";
 
 /* TYPES */
-import type { EtaConfig, Options } from "./config.ts";
+import type { EtaConfig, Options } from "./config";
 /* END TYPES */
 
 export class Eta {
